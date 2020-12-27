@@ -1,0 +1,16 @@
+<nav class="nav">
+  <div class="nav-title">
+  <a href="{{ "/" | relURL }}" class="nav-logo">
+    <img src="{{ print "images/" .Site.Params.logo.url | relURL }}"
+         width="{{ .Site.Params.logo.width }}"
+         height="{{ .Site.Params.logo.height }}"
+         alt="{{ .Site.Params.logo.alt }}">
+  </a>
+  <div>Dauhau Data Studio</div>
+  </div>
+  <ul class="nav-links">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
