@@ -72,6 +72,11 @@ code {
   list-style: none;
 }
 
+.nav-title{
+  float: left;
+  width: 200px;
+}
+
 .nav-links li {
   display: inline-block;
   margin: 0 0 0 15px;
