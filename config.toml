@@ -1,4 +1,4 @@
-baseurl = "/docs/"
+baseurl = "https://i-akiya.github.io/DouhauDataStudio-Website/"
 publishDir = "docs"
 languageCode = "en-us"
 title = "Douhau Data Studio Website"
