@@ -1,4 +1,5 @@
-baseurl = "/"
+baseurl = "/docs/"
+publishDir = "docs"
 languageCode = "en-us"
 title = "Douhau Data Studio Website"
 theme = "hugo-lithium"
