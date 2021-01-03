@@ -1,44 +1,32 @@
-baseurl = "https://i-akiya.github.io/DouhauDataStudio-Website/"
+baseURL = "https://i-akiya.github.io/DouhauDataStudio-Website"
 publishDir = "docs"
-languageCode = "en-us"
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+# The name of this wonderful theme ;-).
+theme = "hugo-scroll"
+
+# The "title" of your website
 title = "Douhau Data Studio Website"
-theme = "hugo-lithium"
-googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "Donate"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Support"
-    url = "https://twitter.com/rstudio"
-
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    # The "description" of your website. This is used in the meta data of your generated html.
+    description = ""
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+    # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+    favicon = "images/favicon.png"
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
+    # These "images" are used for the structured data templates. This will show up, when
+    # services like Twitter or Slack want to generate a preview of a link to your site.
+    # See https://gohugo.io/templates/internal#twitter-cards and
+    # https://gohugo.io/templates/internal#open-graph.
+    images = ["images/cover-image.png"]
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
+    # This theme will, by default, inject a design-by-line at the bottom of the page.
+    # You can turn it off, but we would really appreciate if you don’t :-)
+    # hidedesignbyline = true
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+    [params.meta]
+        keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
