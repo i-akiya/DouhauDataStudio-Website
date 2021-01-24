@@ -9,8 +9,8 @@ Douhau Data Studio has the data grid without pagination that provides non-interr
 #### Features
 - Browse CDISC SDTM datasets both SAS XPORT v5 and Dataset-XML format support  
 - Browse metadata extract from define.xml  
-- Dash board for grasping study outline  
+- Dashboard for grasping study outline  
 
 #### Download
-You can download whole source code, windows binary, and mac binary from github release page.  
+You can download the whole source code, windows binary, and mac binary from github release page.  
 [https://github.com/i-akiya/DouhauDataStudio/releases](https://github.com/i-akiya/DouhauDataStudio/releases)
