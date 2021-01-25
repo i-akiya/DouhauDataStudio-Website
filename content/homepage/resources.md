@@ -9,7 +9,7 @@ header_menu: true
 <br>
 
 #### Github 
-Douhau Data Studio Project is hosted on Github [i-akiya/DouhauDataStudio-UserGuide](https://github.com/i-akiya/DouhauDataStudio).
+Douhau Data Studio Project is hosted on Github [i-akiya/DouhauDataStudio](https://github.com/i-akiya/DouhauDataStudio).
 Both source code and binary are obtained from this repository.
   
   
